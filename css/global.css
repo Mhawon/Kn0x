@@ -1,0 +1,65 @@
+﻿body {
+	background : url('../images/bg_dark.jpg') repeat;
+	color : #e0e0e0;
+	font-family : Arial, Lucida, Tahoma;
+	font-size: 13px;
+	text-shadow : 0 0 10px #000;
+	line-height: 5;
+}
+
+#logo{
+	background : url('../images/logo.png') no-repeat;
+	width : 450;
+	height : 100;
+	margin : 0 auto;
+}
+
+#container{
+background : url('../images/bg_main.jpg') repeat;
+width : 90%;
+border: 1px solid #000;
+margin: auto auto;
+padding: 10px;
+text-align: left;
+border-radius : 4px; 
+box-shadow : 0 0 15px #000;
+}
+
+#leftbar{
+	background : url('../images/bg_dark.jpg') repeat;
+	width : 15%;
+	border : 1px solid black;
+	padding : 5px;
+	border-radius : 4px; 
+	box-shadow : 0 0 30px #000; 
+	float: left;
+}
+
+#core{
+	background : url('../images/bg_dark.jpg') repeat;
+	width : 82%;
+	border : 1px solid black;
+	padding: 10px;
+	border-radius : 4px; 
+	box-shadow : 0 0 30px #000; 
+	margin: 0;
+	margin-left: 200px;
+}
+
+hr{
+	box-shadow : 0 0 15px #fff;
+	display: block;
+	border: none;
+	width: 70%;
+	height: 1px;
+	margin: 0 auto 23px auto;
+}
+a{
+	color : #e0e0e0;
+	font-family : Arial, Lucida, Tahoma;
+	font-size: 13px;
+	text-shadow : 0 0 10px #000;
+}
+a:hover{
+color : #8100cc;
+}
